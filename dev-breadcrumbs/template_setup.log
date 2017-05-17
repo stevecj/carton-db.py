@@ -1,0 +1,158 @@
+$ cookiecutter gh:ionelmc/cookiecutter-pylibrary
+full_name [Ionel Cristian Maries]: Steve Jorgensen
+email [contact@ionelmc.ro]: stevej@stevej.name
+website [https://blog.ionelmc.ro]: http://stevej.name
+github_username [ionelmc]: stevecj
+project_name [Nameless]: CartonDB.py
+repo_name [python-cartondb.py]: carton-db.py
+package_name [cartondb.py]: cartondb
+distribution_name [cartondb]:
+project_short_description [An example package. Generated with cookiecutter-pylibrary.]: A pure Python key/value data storage system where the values may consist of simple data structures
+release_date [today]:
+Select year:
+1 - now
+2 - 2017
+3 - 2016-2017
+4 - 2015-2017
+5 - 2014-2017
+6 - 2013-2017
+7 - 2012-2017
+8 - 2011-2017
+9 - 2010-2017
+10 - 2009-2017
+11 - 2008-2017
+12 - 2007-2017
+13 - 2006-2017
+14 - 2005-2017
+version [0.1.0]: 0.0.1
+Select c_extension_support:
+1 - no
+2 - yes
+Choose from 1, 2 [1]: 1
+Select c_extension_cython:
+1 - no
+2 - yes
+Choose from 1, 2 [1]:
+Select c_extension_optional:
+1 - no
+2 - yes
+Choose from 1, 2 [1]:
+Select test_matrix_configurator:
+1 - no
+2 - yes
+Choose from 1, 2 [1]:
+Select test_matrix_separate_coverage:
+1 - no
+2 - yes
+Choose from 1, 2 [1]:
+Select test_runner:
+1 - pytest
+2 - nose
+Choose from 1, 2 [1]:
+Select command_line_interface:
+1 - plain
+2 - argparse
+3 - click
+4 - no
+Choose from 1, 2, 3, 4 [1]: 4
+command_line_interface_bin_name [cartondb]:
+Select coveralls:
+1 - no
+2 - yes
+Choose from 1, 2 [1]:
+Select codecov:
+1 - yes
+2 - no
+Choose from 1, 2 [1]:
+Select landscape:
+1 - no
+2 - yes
+Choose from 1, 2 [1]:
+Select scrutinizer:
+1 - no
+2 - yes
+Choose from 1, 2 [1]:
+Select codacy:
+1 - no
+2 - yes
+Choose from 1, 2 [1]:
+Select codeclimate:
+1 - no
+2 - yes
+Choose from 1, 2 [1]:
+Select sphinx_theme:
+1 - sphinx-rtd-theme
+2 - sphinx-py3doc-enhanced-theme
+Choose from 1, 2 [1]: 2
+Select sphinx_doctest:
+1 - no
+2 - yes
+Choose from 1, 2 [1]:
+Select travis:
+1 - yes
+2 - no
+Choose from 1, 2 [1]:
+Select appveyor:
+1 - yes
+2 - no
+Choose from 1, 2 [1]:
+Select requiresio:
+1 - yes
+2 - no
+Choose from 1, 2 [1]:
+
+################################################################################
+################################################################################
+
+    You have succesfully created `carton-db.py`.
+
+################################################################################
+
+    You've used these cookiecutter parameters:
+
+        appveyor:                  'yes'
+        c_extension_cython:        'no'
+        c_extension_optional:      'no'
+        c_extension_support:       'no'
+        codacy:                    'no'
+        codeclimate:               'no'
+        codecov:                   'yes'
+        command_line_interface:    'no'
+        command_line_interface_bin_name: 'cartondb'
+        coveralls:                 'no'
+        distribution_name:         'cartondb'
+        email:                     'stevej@stevej.name'
+        full_name:                 'Steve Jorgensen'
+        github_username:           'stevecj'
+        landscape:                 'no'
+        package_name:              'cartondb'
+        project_name:              'CartonDB.py'
+        project_short_description: 'A pure Python key/value data storage system where the values may consist of simple data structures'
+        release_date:              'today'
+        repo_name:                 'carton-db.py'
+        requiresio:                'yes'
+        scrutinizer:               'no'
+        sphinx_doctest:            'no'
+        sphinx_theme:              'sphinx-py3doc-enhanced-theme'
+        test_matrix_configurator:  'no'
+        test_matrix_separate_coverage: 'no'
+        test_runner:               'pytest'
+        travis:                    'yes'
+        version:                   '0.0.1'
+        website:                   'http://stevej.name'
+        year:                      'now'
+
+################################################################################
+
+    To get started run these:
+
+        cd carton-db.py
+        git init
+        git add --all
+        git commit -m "Add initial project skeleton."
+        git remote add origin git@github.com:stevecj/carton-db.py.git
+        git push -u origin master
+
+
+    The project doesn't use the test matrix configurator, but in case
+    you change your mind just edit `setup.cfg` and run `ci/bootstrap.py`.
