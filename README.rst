@@ -59,9 +59,22 @@ Overview
 
 .. end-badges
 
-A pure Python key/value data storage system where the values may consist of simple data structures
+A pure Python key/value data storage system where the values may consist of
+simple data structures
 
 * Free software: BSD license
+
+This will be the Python implementation of Carton DB which currently has only
+a Ruby implementation. For details, see https://github.com/stevecj/carton_db.rb.
+
+Project Status: Initial Development
+===================================
+
+This is a brand new package project and does not yet actually do anything,
+nor has it been released to PyPI so the installation instructions below do
+not yet work.
+
+
 
 Installation
 ============
