@@ -1,5 +1,8 @@
 *.py[cod]
 
+# Environment config
+.python-version
+
 # C extensions
 *.so
 
