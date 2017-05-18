@@ -10,7 +10,7 @@ Overview
     * - docs
       - |docs|
     * - tests
-      - | |travis| |appveyor| |requires|
+      - | |travis| |requires|
         | |codecov|
     * - package
       - | |version| |wheel| |supported-versions| |supported-implementations|
@@ -23,10 +23,6 @@ Overview
 .. |travis| image:: https://travis-ci.org/stevecj/carton-db.py.svg?branch=master
     :alt: Travis-CI Build Status
     :target: https://travis-ci.org/stevecj/carton-db.py
-
-.. |appveyor| image:: https://ci.appveyor.com/api/projects/status/github/stevecj/carton-db.py?branch=master&svg=true
-    :alt: AppVeyor Build Status
-    :target: https://ci.appveyor.com/project/stevecj/carton-db.py
 
 .. |requires| image:: https://requires.io/github/stevecj/carton-db.py/requirements.svg?branch=master
     :alt: Requirements Status
