@@ -12,7 +12,8 @@ env:
     - SEGFAULT_SIGNALS=all
   matrix:
     - TOXENV=check
-    - TOXENV=docs
+    # Leave docs commented out until released to pypi.
+    # - TOXENV=docs
 matrix:
   include:
     - python: '3.6'
